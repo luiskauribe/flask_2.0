@@ -13,7 +13,7 @@ def HolaFlask():
 
 @app.route("/notas")
 @app.route("/notas/<float:nota1>/<float:nota2>/<float:nota3>")
-def promedio(nota1=0,nota2=0,nota3=0):
+def resultado(nota1=0,nota2=0,nota3=0):
     resultado = (nota1 * 30) / 100 + (nota2 * 30) / 100 + (nota3 * 40) / 100
 
 
